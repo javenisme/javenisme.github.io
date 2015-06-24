@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: 
+
+Sitemap: http://javenisme.github.io/sitemap.xml 
