@@ -4,7 +4,7 @@
   <title><![CDATA[Javen's Blog]]></title>
   <link href="http://javenisme.github.io/atom.xml" rel="self"/>
   <link href="http://javenisme.github.io/"/>
-  <updated>2015-06-25T09:07:49+08:00</updated>
+  <updated>2015-06-26T20:08:33+08:00</updated>
   <id>http://javenisme.github.io/</id>
   <author>
     <name><![CDATA[Javen]]></name>
@@ -12,6 +12,15 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[MVVM 实战]]></title>
+    <link href="http://javenisme.github.io/blog/2015/06/26/mvvm-shi-zhan/"/>
+    <updated>2015-06-26T14:38:43+08:00</updated>
+    <id>http://javenisme.github.io/blog/2015/06/26/mvvm-shi-zhan</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Swift Tips (1)]]></title>

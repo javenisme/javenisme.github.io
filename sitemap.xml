@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>http://javenisme.github.io/blog/2015/06/26/mvvm-shi-zhan/</loc>
+    <lastmod>2015-06-26T14:38:43+08:00</lastmod>
+  </url>
+  <url>
     <loc>http://javenisme.github.io/blog/2015/06/25/swift-tips-1/</loc>
     <lastmod>2015-06-25T01:17:14+08:00</lastmod>
   </url>
