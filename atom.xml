@@ -4,7 +4,7 @@
   <title><![CDATA[Javen's Blog]]></title>
   <link href="http://javenisme.github.io/atom.xml" rel="self"/>
   <link href="http://javenisme.github.io/"/>
-  <updated>2015-06-26T22:37:18+08:00</updated>
+  <updated>2015-06-26T22:53:15+08:00</updated>
   <id>http://javenisme.github.io/</id>
   <author>
     <name><![CDATA[Javen]]></name>
@@ -71,10 +71,37 @@
   </entry>
   
   <entry>
+    <title type="html"><![CDATA[初创公司如何招聘]]></title>
+    <link href="http://javenisme.github.io/blog/2014/05/14/startup-zhao-pin/"/>
+    <updated>2014-05-14T14:38:43+08:00</updated>
+    <id>http://javenisme.github.io/blog/2014/05/14/startup-zhao-pin</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[HealthKit深度剖析]]></title>
+    <link href="http://javenisme.github.io/blog/2014/05/01/healthkit-learning/"/>
+    <updated>2014-05-01T14:38:43+08:00</updated>
+    <id>http://javenisme.github.io/blog/2014/05/01/healthkit-learning</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[HelloWorld]]></title>
     <link href="http://javenisme.github.io/blog/2014/04/25/helloworld/"/>
     <updated>2014-04-25T10:27:09+08:00</updated>
     <id>http://javenisme.github.io/blog/2014/04/25/helloworld</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[NSNotification、delegate和KVO的深度对比]]></title>
+    <link href="http://javenisme.github.io/blog/2014/03/02/Delegate-Notification-KVO-learning/"/>
+    <updated>2014-03-02T00:38:43+08:00</updated>
+    <id>http://javenisme.github.io/blog/2014/03/02/Delegate-Notification-KVO-learning</id>
     <content type="html"><![CDATA[
 ]]></content>
   </entry>
