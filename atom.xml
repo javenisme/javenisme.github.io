@@ -4,7 +4,7 @@
   <title><![CDATA[Javen's Blog]]></title>
   <link href="http://javenisme.github.io/atom.xml" rel="self"/>
   <link href="http://javenisme.github.io/"/>
-  <updated>2015-06-26T22:03:50+08:00</updated>
+  <updated>2015-06-26T22:37:18+08:00</updated>
   <id>http://javenisme.github.io/</id>
   <author>
     <name><![CDATA[Javen]]></name>
@@ -58,6 +58,15 @@
 三维坐标系内一点，封装x，y和z属性，三者均为Double类型。
 在所有其它案例中，定义一个类，生成一个它的实例，并通过引用来管理和传递。实际中，这意味着绝大部分的自
 定义数据构造都应该是类，而非结构体。</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[创业4个月总结]]></title>
+    <link href="http://javenisme.github.io/blog/2014/06/04/chuangye/"/>
+    <updated>2014-06-04T14:38:43+08:00</updated>
+    <id>http://javenisme.github.io/blog/2014/06/04/chuangye</id>
+    <content type="html"><![CDATA[
 ]]></content>
   </entry>
   
