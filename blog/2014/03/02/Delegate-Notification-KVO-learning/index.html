@@ -9,8 +9,7 @@
   <meta name="author" content="Javen">
 
   
-  <meta name="description" content="
-">
+  <meta name="description" content="1.效率肯定是delegate比nsnotification高。 2.delegate方法比notification更加直接，最典型的特征是，delegate方法往往需要关注返回值，也就是delegate方法的结果。比如-windowShouldClose:，需要关心返回的是yes还是no。 &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -98,7 +97,24 @@
   </header>
 
 
-<div class="entry-content">
+<div class="entry-content"><p>1.效率肯定是delegate比nsnotification高。</p>
+
+<p>2.delegate方法比notification更加直接，最典型的特征是，delegate方法往往需要关注返回值，也就是delegate方法的结果。比如-windowShouldClose:，需要关心返回的是yes还是no。所以delegate方法往往包含should这个很传神的词。也就是好比你做我的delegate，我会问你我想关闭窗口你愿意吗？你需要给我一个答案，我根据你的答案来决定如何做下一步。相反的，notification最大的特色就是不关心接受者的态度，我只管把通告放出来，你接受不接受就是你的事情，同时我也不关心结果。所以notification往往用did这个词汇，比如NSWindowDidResizeNotification，那么nswindow对象放出这个notification后就什么都不管了也不会等待接受者的反应。</p>
+
+<p>简明概要的说明了KVO和NSNotification的区别：</p>
+
+<p>和delegate一样，KVO和NSNotification的作用也是类与类之间的通信，与delegate不同的是1）这两个都是负责发出通知，剩下的事情就不管了，所以没有返回值；2）delegate只是一对一，而这两个可以一对多。这两者也有各自的特点。</p>
+
+<p>1）KVO的使用：
+被观察者发出 addObserver:forKeyPath:options:context: 方法来添加观察者。</p>
+
+<p>然后只要被观察者的keyPath值变化(注意：单纯改变其值不会调用此方法，只有通过getters和setters来改变值才会触发KVO)，就会在观察者里调用方法observeValueForKeyPath:ofObject:change:context:
+因此观察者需要实现方法 observeValueForKeyPath:ofObject:change:context: 来对KVO发出的通知做出响应。</p>
+
+<p>这些代码都只需在观察者里进行实现，被观察者不用添加任何代码，所以谁要监听谁注册，然后对响应进行处理即可，使得观察者与被观察者完全解耦，运用很灵活很简便；但是KVO只能检测类中的属性，并且属性名都是通过NSString来查找，编译器不会帮你检错和补全，纯手敲所以比较容易出错。</p>
+
+<p>2）NSNotification的使用
+这里的通知不是由被观察者发出，而是由NSNotificationCenter来统一发出，而不同通知通过唯一的通知标识名notificationName来区分</p>
 </div>
 
 
@@ -153,7 +169,7 @@
       </li>
     
       <li class="post">
-        <a href="/blog/2014/06/04/chuangye/">创业4个月总结</a>
+        <a href="/blog/2014/07/19/chuangye/">创业4个月总结</a>
       </li>
     
       <li class="post">
