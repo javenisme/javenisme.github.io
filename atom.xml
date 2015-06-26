@@ -4,7 +4,7 @@
   <title><![CDATA[Javen's Blog]]></title>
   <link href="http://javenisme.github.io/atom.xml" rel="self"/>
   <link href="http://javenisme.github.io/"/>
-  <updated>2015-06-26T23:10:52+08:00</updated>
+  <updated>2015-06-26T23:24:56+08:00</updated>
   <id>http://javenisme.github.io/</id>
   <author>
     <name><![CDATA[Javen]]></name>
@@ -129,15 +129,6 @@ Healthkit为可穿戴设备和App提供了数据接口，而自带应用Health�
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[HelloWorld]]></title>
-    <link href="http://javenisme.github.io/blog/2014/04/25/helloworld/"/>
-    <updated>2014-04-25T10:27:09+08:00</updated>
-    <id>http://javenisme.github.io/blog/2014/04/25/helloworld</id>
-    <content type="html"><![CDATA[
-]]></content>
-  </entry>
-  
-  <entry>
     <title type="html"><![CDATA[NSNotification、delegate和KVO的深度对比]]></title>
     <link href="http://javenisme.github.io/blog/2014/03/02/Delegate-Notification-KVO-learning/"/>
     <updated>2014-03-02T00:38:43+08:00</updated>
@@ -160,6 +151,18 @@ Healthkit为可穿戴设备和App提供了数据接口，而自带应用Health�
 
 <p>2）NSNotification的使用
 这里的通知不是由被观察者发出，而是由NSNotificationCenter来统一发出，而不同通知通过唯一的通知标识名notificationName来区分</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Hello World]]></title>
+    <link href="http://javenisme.github.io/blog/2012/03/17/helloworld/"/>
+    <updated>2012-03-17T10:27:09+08:00</updated>
+    <id>http://javenisme.github.io/blog/2012/03/17/helloworld</id>
+    <content type="html"><![CDATA[<p>来自于农村，奋斗在北京。向这个世界传递我的声音。</p>
+
+<p>联系方式：
+微信：cocoageek</p>
 ]]></content>
   </entry>
   
