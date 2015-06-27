@@ -4,7 +4,7 @@
   <title><![CDATA[Javen's Blog]]></title>
   <link href="http://javenisme.github.io/atom.xml" rel="self"/>
   <link href="http://javenisme.github.io/"/>
-  <updated>2015-06-27T09:48:15+08:00</updated>
+  <updated>2015-06-27T12:32:25+08:00</updated>
   <id>http://javenisme.github.io/</id>
   <author>
     <name><![CDATA[Javen]]></name>
@@ -110,7 +110,8 @@
     <link href="http://javenisme.github.io/blog/2014/05/01/healthkit-learning/"/>
     <updated>2014-05-01T14:38:43+08:00</updated>
     <id>http://javenisme.github.io/blog/2014/05/01/healthkit-learning</id>
-    <content type="html"><![CDATA[<p>HealthKit 深度剖析</p>
+    <content type="html"><![CDATA[<p><img src="http://i2.wp.com/www.applehealthkit.com/wp-content/uploads/2014/06/apple-healthkit.png?resize=600%2C402" alt="" />
+HealthKit 深度剖析</p>
 
 <p>HealthKit允许app提供健康和健身服务以新的健康应用分享数据。用户的健康信息存储在中心化并且安全的本地。并且用户决定哪些数据应该被分享给你的APP。</p>
 
@@ -155,11 +156,13 @@ Healthkit为可穿戴设备和App提供了数据接口，而自带应用Health�
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[浪潮之巅读书笔记]]></title>
+    <title type="html"><![CDATA[《浪潮之巅》读书笔记]]></title>
     <link href="http://javenisme.github.io/blog/2013/12/14/lang-chao-zhi-dian-book/"/>
     <updated>2013-12-14T13:43:01+08:00</updated>
     <id>http://javenisme.github.io/blog/2013/12/14/lang-chao-zhi-dian-book</id>
-    <content type="html"><![CDATA[<h6>2013-12-06 09:44:07</h6>
+    <content type="html"><![CDATA[<p><img src="https://s.doubanio.com/lpic/s6584764.jpg" alt="" /></p>
+
+<h6>2013-12-06 09:44:07</h6>
 
 <p>投资大师巴菲特在谈到上个世纪初他父亲失败的投资时讲，那时有很多汽车公司，大家不知道投哪个好，但是有一点投资者应该看到，马车工业要完蛋了。巴菲特为他的父亲没有注意到这一点而感到遗憾。今天，互联网虽然还不能完全代替固定电话，但是前者已经大大挤压了后者的发展空间，因为它可以提供更灵活，更丰富，而且更便宜的通信手段。</p>
 
